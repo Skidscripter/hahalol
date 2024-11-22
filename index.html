@@ -259,11 +259,73 @@
     <div class="container">
         <div class="header">
             <div>
-                <div class="header">
-                    <h1>Good Evening, Andy</h1>
-                    <img src="https://cdn.discordapp.com/attachments/1302372170001027147/1309321022909972521/chase-bank.png?ex=674127b9&amp;is=673fd639&amp;hm=2dfdd8406db893768b8b4b23479223eddfadac71adfe53b259ee7252f1349359" class="chase-icon" alt="Icon" style="width: 35px; height: auto; margin-top: 20px;">
+                <style>
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa; /* Optional: Adds a subtle background */
+    border-radius: 8px; /* Optional: Smooth corners */
+  }
 
-                </div>
+  .header h1 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+    color: #333; /* Dark text color for better readability */
+  }
+
+  .chase-icon {
+    width: 35px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between icons */
+  }
+</style>
+
+<style>
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spacing between the logo and the text */
+    padding: 10px;
+    background-color: #f8f9fa; /* Optional: Adds a subtle background */
+    border-radius: 8px; /* Smooth corners */
+  }
+
+  .header h1 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+    color: #333; /* Darker text color for better readability */
+  }
+
+  .chase-icon {
+    width: 40px; /* Slightly larger for prominence */
+    height: auto;
+  }
+
+  .header-right {
+    margin-left: auto; /* Push icons to the far right */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+</style>
+
+<div class="header">
+  <img src="https://cdn.discordapp.com/attachments/1302372170001027147/1309321022909972521/chase-bank.png?ex=674127b9&amp;is=673fd639&amp;hm=2dfdd8406db893768b8b4b23479223eddfadac71adfe53b259ee7252f1349359" class="chase-icon" alt="Chase Logo">
+  <h1>Good Evening, Andy</h1>
+  
+</div>
+
+
                 
                 <p id="current-date">November 21, 2024</p>
             </div>
@@ -488,6 +550,7 @@
               </script>
         </div>
     </div>
+
 
 
 </body></html>
